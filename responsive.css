@@ -1,0 +1,117 @@
+/* Responsive styles */
+
+/* For tablets and smaller desktops */
+@media screen and (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .description h1 {
+        font-size: 50px;
+    }
+
+    .description h2 {
+        font-size: 30px;
+    }
+
+    .typing-text {
+        font-size: 28px;
+    }
+
+    .description p {
+        width: 100%;
+    }
+
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .description h1 {
+        font-size: 40px;
+    }
+
+    .description h2 {
+        font-size: 24px;
+    }
+
+    .typing-text {
+        font-size: 24px;
+    }
+
+    .buttons-1st {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-1, .btn-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about p {
+        width: 90%;
+    }
+
+    .projects {
+        padding: 30px;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .skills {
+        padding: 30px;
+    }
+
+    .forum {
+        padding: 15px;
+    }
+}
+
+/* For very small devices */
+@media screen and (max-width: 480px) {
+    .description h1 {
+        font-size: 32px;
+    }
+
+    .description h2 {
+        font-size: 20px;
+    }
+
+    .typing-text {
+        font-size: 20px;
+    }
+
+    .sp-1, .sp-2 {
+        font-size: 36px;
+    }
+
+    .img2 img {
+        width: 200px;
+        height: 200px;
+    }
+}
